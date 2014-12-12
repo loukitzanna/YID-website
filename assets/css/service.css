@@ -15,4 +15,10 @@ button{
 
 #yid-wedding.container{
 
-padding-bottom: 100px;}
+padding-bottom: 100px;
+}
+
+#aboutus, #testimonials{
+    font-family: Kirvy;
+    font-size: 13px;
+}
