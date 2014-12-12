@@ -37,7 +37,7 @@ LOGO!!
 responsive- sidebar, home page links, etc.
 testimonials link to review pages (wedding wire, etc)
 services- click link to change content
-quincenera and for him -> services
+*** quincenera and for him -> services
 sidebar more obvious/awesome
 
 
