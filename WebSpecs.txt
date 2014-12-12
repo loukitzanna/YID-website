@@ -19,7 +19,7 @@ sidebar covers text when browser not full screen
 ##### Services
 - Reconsider presentation of services
 popup text
--- color?
+-- color? <-- what was this??
 
 
 ##### Wedding
@@ -34,7 +34,7 @@ Photo of makeup artist
 LOGO!!
 
 ##TODO
-responsive- sidebar, home page links, etc.
+responsive design- sidebar, home page links, etc.
 testimonials link to review pages (wedding wire, etc)
 services- click link to change content
 *** quincenera and for him -> services
