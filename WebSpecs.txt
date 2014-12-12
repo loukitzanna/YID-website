@@ -1,0 +1,45 @@
+Website To Do specs:
+
+* Photography page
+* Login page and server for photo uploads
+* Order prints online/ Buy stuff
+* Testimonial Page
+
+#### Side Nav:
+Dropdown to the side 
+____ >	_____
+	_____
+
+
+#### All Pages:
+
+##### Quinceanera:
+sidebar covers text when browser not full screen
+
+##### Services
+- Reconsider presentation of services
+popup text
+-- color?
+
+
+##### Wedding
+Fix sizes of columns (bottom)
+Gallery at the bottom?
+
+##### Requests:
+
+Photo of their location
+Photo of photographer
+Photo of makeup artist
+LOGO!!
+
+##TODO
+responsive- sidebar, home page links, etc.
+testimonials link to review pages (wedding wire, etc)
+services- click link to change content
+quincenera and for him -> services
+sidebar more obvious/awesome
+
+
+advertising - how
+eshop

@@ -1,0 +1,18 @@
+@font-face{
+    font-family: Kirvy;
+    src: url(./Kirvy/Kirvy-Light.otf) format("opentype");
+}
+
+button{
+	width: 173px;
+}
+
+
+.popover{
+	font-size: 15px;
+	font-family: Kirvy;
+}
+
+#yid-wedding.container{
+
+padding-bottom: 100px;}

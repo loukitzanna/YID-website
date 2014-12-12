@@ -1,0 +1,398 @@
+/*
+ * Globals
+ */
+ 
+@font-face {
+    font-family: Rochester;
+    src: url(./Rochester-Regular.ttf);
+}
+
+@font-face{
+    font-family: Kirvy;
+    src: url(./Kirvy/Kirvy-Light.otf) format("opentype");
+}
+@font-face{
+    font-family: Kirvy-Regular;
+    src: url(./Kirvy/Kirvy-Regular.otf) format("opentype");
+}
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #e9e4d6;
+}
+
+#logo img{
+	content: url("../images/napa-mark-transparent-860x860.png");
+
+}
+
+p{
+	font-size: 25px;
+}
+h1{
+	font-size: 60px;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body { /* background */
+  height: 100%;
+  background-color: #FFF8E4; /* e9e4d6 dcf1e1*/
+}
+body { /* text */
+  color: #5C5C5C;
+  font-family: Rochester, cursive;
+  text-align: left;
+
+}
+/* my styling */
+
+#gallery{
+	
+	
+	height: 500px;
+}
+#gallery h2{
+	text-align: center;
+	font-size: 125px;
+	padding-top: 100px;
+	font-family: Kirvy-Regular,Arial,sans-serif;
+	color: #CAFFA6;
+}
+
+#gallery img{
+	position: absolute;
+	top: 20.5%;
+}
+
+.yid-topbackground{
+	/* background-size: cover; */
+  /*background-image: url(http://goo.gl/4GWQcz); */
+	height:170px;
+}
+/* .yid-topbackground h2{
+	text-align: center;
+}
+ */
+/*  .jumbotron{
+  height: 700px
+  background-size: cover;
+  background-image: url(http://www.victoriancatering.info/wp-content/uploads/2013/03/SS-Wedding-Stock-007.jpg);
+  
+} */
+ 
+ .container.hompage-content{
+	padding-left : 50px;
+	padding-top: 100px;
+	text-align: center;
+ }
+ .container .homepage-content h1{
+   font-size:55px;
+   /* margin-left: 50px; */
+   margin-top: 50px;
+   text-align: center;
+ }
+
+
+.thumbnail{
+	background: none;
+	border:none;
+	box-shadow: none;
+ } 
+.thumbnail a:hover{
+	text-decoration:none;
+}
+#photo{
+	height:345px;
+}
+
+ 
+ /*  This is new */
+ 
+.content-tristrip{
+	width:70%;
+	margin: 0px auto;
+} 
+.cycle-slideshow{
+	margin: 5rem 0;
+}
+
+ .col-md-3{
+	text-align: center;
+	width: 25%;
+	height: 43rem;
+	margin:4%;
+	border: 1px groove;
+    border-radius: 10px;
+	background: none /* #e9e9e9 */
+ }
+ 
+ .col-md-3 p{
+	padding: 10px;
+	font-family: Kirvy, sans-serif;
+	font-size: 15px;
+	text-align: left;
+ }
+ 
+ .col-md-3 h3{
+	font-size: 30px;
+	font-family: Kirvy-Regular;
+ }
+
+ 
+footer {
+	font-family: Georgia, serif;
+	clear:float;
+	text-align: center;
+/* 	position: fixed;
+	left:0px;
+	bottom:0px; */
+	border-top: 1px solid #5c5c5c;
+	color:#5c5c5c;
+	height:50px;
+	width:100%;
+
+}
+footer a{
+	color: #3c3c3c;
+}
+
+.yid-def-tab{
+	padding-left: 30px;
+}
+
+/* Initial menu */
+.menu{
+  background: #202024 url(../images/black-thread.png) repeat left top;
+  left: -200px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 200px;
+  z-index: 120;
+}
+
+/* menu */
+
+.menu ul {   /* separator */
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu   li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Kirvy-Light', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+  z-index: 4;
+}
+
+.menu .active a{
+	color: #218065
+}
+
+.menu #sidebar-trigger {
+	cursor: pointer;
+	background: url(../images/sprite-icons.png) left -60px no-repeat;
+	position: absolute;
+	right: -43px;
+	top: 0px;
+	height: 43px;
+	width: 43px;
+	text-indent: -5000px;
+	z-index: 5;
+}
+.sec-menu {
+  padding-top: 44px;
+  background: #945b6d;
+  left: 0px; 
+  height: 100%;
+  position: fixed;
+  width: 200px;
+  z-index: 1;
+}
+
+.sec-menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sec-menu   li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+  z-index: 4;
+}
+
+
+/* Basic styling */
+
+
+
+
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #5c5c5c;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
