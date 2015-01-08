@@ -13,7 +13,7 @@ hii
 
 #### All Pages:
 
-##### Quinceanera: --- Probably deleting this page
+##### Quinceanera: --- Probably deleting this page - delete on every page
 sidebar covers text when browser not full screen
 
 ##### Services

@@ -139,11 +139,29 @@ body { /* text */
 	text-align: left;
  }
  
- .col-md-3 h3{
+ .col-md-3 .yid-links{
 	font-size: 30px;
 	font-family: Kirvy-Regular;
  }
-
+ .yid-links, .yid-links:hover, .yid-links:visited{
+	color:black;
+	text-decoration:none;
+ }
+@media (max-width:1020px){
+	 .col-md-3{
+   height: 5rem;
+   width:100%;
+   }
+   .thumbnail>img{
+   display:none;
+   }
+   
+}
+@media (max-width:620px){
+.container .homepage-content h1 {
+	font-size:42px;
+}
+}
  
 footer {
 	font-family: Georgia, serif;
