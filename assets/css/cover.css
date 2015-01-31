@@ -42,8 +42,8 @@ h1{
 html,
 body { /* background */
   height: 100%;
-  background-color: #eada8e; /* e9e4d6 dcf1e1*/
-  background: #eada8e url(../images/symphony.png) repeat left top;
+  /*background-color: ;  e9e4d6 dcf1e1*/
+  background: #E9E3D2 url(../images/symphony.png) repeat left top;
 
 }
 body { /* text */
