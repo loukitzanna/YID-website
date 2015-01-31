@@ -22,3 +22,8 @@ padding-bottom: 100px;
     font-family: Kirvy;
     font-size: 13px;
 }
+
+/* services that change on click*/
+.rent{
+	display:hidden;
+}
