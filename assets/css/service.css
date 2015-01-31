@@ -7,12 +7,6 @@ button{
 	width: 173px;
 }
 
-
-.popover{
-	font-size: 15px;
-	font-family: Kirvy;
-}
-
 #yid-wedding.container{
 
 padding-bottom: 100px;
@@ -25,8 +19,38 @@ padding-bottom: 100px;
 #aboutus p{
     font-size: 19px;
 }
+.btn-lg{
+	font-size: 1em;
+}
+.thumbnail > img{
+}
+#services-content{
+	font-family: Kirvy;
+    font-size: 13px;
+}
 
+.center-content{
+	margin-top:5em;
+	min-height: 20em;
+
+}
 /* services that change on click*/
 .rent{
-	display:hidden;
+	display:none;
+}
+
+.photo{
+	display:none;
+}
+
+.face{
+	display:none;
+}
+
+.floral{
+	display:none;
+}
+
+.print{
+	display:none;
 }
