@@ -3,40 +3,59 @@ Website To Do specs:
 * Photography page
 * Login page and server for photo uploads
 * Order prints online/ Buy stuff
-* Testimonial Page
+###Testimonial Page
 
 #### Side Nav:
 Dropdown to the side 
 ____ >	_____
-	_____
-hii
+		_____
+
 
 #### All Pages:
 
 ##### Quinceanera: --- Probably deleting this page - delete on every page
-sidebar covers text when browser not full screen
+
 
 ##### Services
-- Reconsider presentation of services
-popup text
--- color? <-- what was this??
+##Reconsider presentation of services
+##popup text
+
+add quinceanera section
+add qipao section
 
 
 ##### Wedding
 Fix sizes of columns (bottom)
 Gallery at the bottom?
 
+landing page for wedding:
+add descripts:
+"Our bridal gown service allows brides to customize their gown to fit their needs
+
+and preference. Whether it is something as simple as lengthening a train or as
+
+elaborate as changing a beadwork pattern or neckline, all are within the realm of
+
+possibility. Our unique ability to customize styles give brides a chance to design
+
+a one-of-a-kind creation. Brides can place new orders, buy off the rack, or rent
+
+bridal gowns to fit their needs."
+TODO Description and links to vendor websites
+TODO Titles and Descriptions for Images?
+
+
 ##### Requests:
 
-Photo of their location
+##Photo of their locatio
 Photo of photographer
 Photo of makeup artist
-LOGO!!
+##LOGO!!
 
 ##TODO
 responsive design- sidebar, home page links, etc.
-testimonials link to review pages (wedding wire, etc)
-services- click link to change content
+##testimonials link to review pages (wedding wire, etc)
+##services- click link to change content
 *** quincenera and for him -> services
 sidebar more obvious/awesome
 
