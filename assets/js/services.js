@@ -3,6 +3,10 @@ $(function(){
 		resetclick();
 		$(".rent").css("display", "block");
 	});
+	$("#btntailor").click(function(){
+		resetclick();
+		$(".tailor").css("display", "block");
+	});
 	$("#btnphoto").click(function(){
 		resetclick();
 		$(".photo").css("display", "block");
@@ -23,6 +27,7 @@ $(function(){
 
 resetclick = function(){
 	$(".rent").css("display", "none");
+	$(".tailor").css("display", "none");
 	$(".photo").css("display", "none");
 	$(".floral").css("display", "none");
 	$(".face").css("display", "none");
