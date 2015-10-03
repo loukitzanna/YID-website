@@ -27,7 +27,15 @@ a:hover {
 	content: url(../images/logo-white.png);
 
 }
-
+.homepage-content{
+background: url(../images/Logo-T.png) right no-repeat; background-size:contain;
+height:160px;
+}
+@media(max-width:480px){
+	.homepage-content{
+		background:none;
+}
+}
 p{
 	font-size: 25px;
 }
@@ -98,9 +106,15 @@ body { /* text */
    /* margin-left: 50px; */
    margin-top: 50px;
    text-align: center;
+       color: black;
+    text-decoration: none;
  }
+ .container .homepage-content h3{
+     color: black;
+    text-decoration: none;}
 
-
+.container .menu + a:hover{    color: black;
+    text-decoration: none;}
 .thumbnail{
 	background: none;
 	border:none;

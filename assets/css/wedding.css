@@ -23,10 +23,20 @@ padding-bottom:1em;
 	font-size: 15px;
 	text-align: left;
  }
- 
- .col-md-6 h3{
+ .vendors .col-md-6{
+	height:auto;
+	width:50%;
+	margin:0;
+	border:0;
+ }
+ .col-md-6 h3, .col-md-8 h3{
 	font-size: 30px;
-	font-family: Kirvy-Regular;
+	    font-family: Rochester, cursive;
+ }
+  .col-md-6 h4, .col-md-8 h4{
+	font-size: 24px;
+	    font-family: Rochester, cursive;
+	color:black;
  }
  #photoalbum img{
 	height: 400px;

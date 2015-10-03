@@ -23,6 +23,10 @@ $(function(){
 		resetclick();
 		$(".print").css("display", "block");
 	});
+		$("#btntips").click(function(){
+		resetclick();
+		$(".tips").css("display", "block");
+	});
 });
 
 resetclick = function(){
@@ -32,4 +36,5 @@ resetclick = function(){
 	$(".floral").css("display", "none");
 	$(".face").css("display", "none");
 	$(".print").css("display", "none");
+	$(".tips").css("display", "none");
 }

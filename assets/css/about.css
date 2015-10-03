@@ -17,7 +17,13 @@
     color: #202024;
     font-family: Rochester, cursive;
 }
-
+#aboutus .col-md-6{
+	border:0;
+	margin:0;
+	width:50%;
+	background:none;
+	text-align:left;
+}
 blockquote{
     font-size: 20px;
     border-left: 5px solid #BBBBBB;
